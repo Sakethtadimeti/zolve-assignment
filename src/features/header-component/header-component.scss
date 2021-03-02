@@ -1,0 +1,23 @@
+.app-header {
+  display: flex;
+  background-color: indianred;
+  .app-navbar {
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    .app-name {
+      font-weight: bold;
+      color: black;
+      font-size: 1rem;
+    }
+    a,
+    span {
+      margin-right: 1rem;
+      color: white;
+      text-decoration: none;
+    }
+    @media screen and (max-width: 500px) {
+      flex-direction: column;
+    }
+  }
+}
