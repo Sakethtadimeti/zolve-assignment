@@ -1,0 +1,22 @@
+.copy-to-clipboard-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  .copy-to-clipboard {
+    p {
+      margin: 0 1rem 0 0;
+      min-width: 10rem;
+    }
+    button {
+      cursor: pointer;
+    }
+    .fa-clipboard {
+      margin-right: 0.5rem;
+    }
+  }
+  .row {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+}
